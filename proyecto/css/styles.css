@@ -1,0 +1,62 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+header {
+    background-color: #FFC107;
+    text-align: center;
+    padding: 50px;
+}
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+nav {
+    border: 1px solid #FFC107;
+}
+
+nav li {
+    font-size: 32px;
+    color: white;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease; /*transición de 0.3 segundos para el cambio de color*/
+}
+
+a:hover {
+    background-color: rgb(13, 140, 166);
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+#contenidoCalc{
+    border: 1px solid #FFC107;
+}
+
+.sizeH2 {
+    font-size: 50px;
+}
+
+section {
+    border: 1px solid #FFC107;
+    font-size: 30px;
+    color: white;
+}
+
+footer {
+    border: 1px solid #FFC107;
+    font-size: 20px;
+    padding: 20px;
+}
